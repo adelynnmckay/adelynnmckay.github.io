@@ -3,9 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-<<<<<<< HEAD
-.bundleGemfile.lock
-=======
 .bundle
 Gemfile.lock
->>>>>>> adelynnmckay
+.DS_Store
