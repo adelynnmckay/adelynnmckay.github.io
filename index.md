@@ -76,11 +76,11 @@ description: i'm ade. i do things. make stuff. here's some. have fun.
             </li>
             <li class="icon-container">
                 {%- include theme/icons/github.html class="size-24px" -%}
-                <a href="https://github.com/{{ github.username }}">@{{ site.github.username }}</a>
+                <a href="https://github.com/{{ site.github.username }}">@{{ site.github.username }}</a>
             </li>
             <li class="icon-container">
                 {%- include theme/icons/twitter.html class="size-24px" -%}
-                <a href="https://x.com/{{ twitter.username }}">@{{ site.twitter.username }}</a>
+                <a href="https://x.com/{{ site.twitter.username }}">@{{ site.twitter.username }}</a>
             </li>
         </ul>
     </div>
