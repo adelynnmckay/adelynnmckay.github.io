@@ -66,7 +66,7 @@ description: i'm ade. i do things. make stuff. here's some. have fun.
 
 <div class="container">
     <div class="box">
-        <img src="/assets/images/featured_image.png" alt="{{ site.title | escape }}">
+        <img src="/assets/images/featured_image.jpg" alt="{{ site.title | escape }}">
     </div>
     <div class="box">
         <ul>
