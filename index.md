@@ -49,6 +49,17 @@ description: i'm ade. i do things. make stuff. here's some. have fun.
             max-width: 250px;
         }
 
+        img.size-24px {
+            margin: 0;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            min-height: 24px;
+            min-width: 24px;
+            max-height: 24px;
+            max-width: 24px;
+        }
+
     }
 
     @media (max-width: 346px) {
@@ -70,6 +81,10 @@ description: i'm ade. i do things. make stuff. here's some. have fun.
     </div>
     <div class="box">
         <ul>
+            <li class="icon-container">
+                <img class="icon size-24px" src="/assets/images/nrx.png" />
+                <a href="http://blog.adelynnmckay.com/">ade's blog</a>
+            </li>
             <li class="icon-container">
                 {%- include theme/icons/text.html text="N" class="size-24px" -%}
                 <a href="http://notes.adelynnmckay.com/">ade's notes</a>
