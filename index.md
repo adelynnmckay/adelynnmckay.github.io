@@ -81,14 +81,14 @@ description: i'm ade. i do things. make stuff. here's some. have fun.
     </div>
     <div class="box">
         <ul>
-            <li class="icon-container">
+            <!--li class="icon-container">
                 <img class="icon size-24px" src="/assets/images/nrx.png" />
                 <a href="http://blog.adelynnmckay.com/">ade's blog</a>
-            </li>
-            <li class="icon-container">
+            </li-->
+            <!--li class="icon-container">
                 {%- include theme/icons/text.html text="N" class="size-24px" -%}
                 <a href="http://notes.adelynnmckay.com/">ade's notes</a>
-            </li>
+            </li-->
             <li class="icon-container">
                 {%- include theme/icons/github.html class="size-24px" -%}
                 <a href="https://github.com/{{ site.github.username }}">@{{ site.github.username }}</a>
