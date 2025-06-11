@@ -8,6 +8,7 @@ SERVICE := jekyll
 all: build up
 
 build:
+	mkdir -p ../.docker/_site
 	$(COMPOSE) build
 
 up:

@@ -3,5 +3,10 @@ services:
     build:
       context: ../..
       dockerfile: ./adelynnmckay.github.io/docker/Dockerfile
+      args:
+        SITE_NAME: adelynnmckay.github.io
+        THEME_NAME: jekyll-theme-ade
     ports:
       - "4000:4000"
+    volumes:
+      - ../.docker/_site:/srv/jekyll/adelynnmckay.github.io/_site
